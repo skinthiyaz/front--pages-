@@ -1,0 +1,48 @@
+/* Reset some default margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Style body to center content */
+  body {
+    background-image: url('brain\ 2.png');
+  background-size: cover;       
+  background-repeat: no-repeat;
+  background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f4f8;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Center content inside container */
+  .container {
+    text-align: center;
+  }
+  
+  /* Style for h1 */
+  h1 {
+    margin-bottom: 20px;
+    color: #ffffff;
+  }
+  
+  /* Style the button */
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
